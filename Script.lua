@@ -50,13 +50,9 @@ Window:Prompt({
 
 -- Start
 local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
-local Label = Tab:CreateLabel("Credits: CatBypass Dev Team")
-local Label = Tab:CreateLabel("Special thanks to nivalos")
-local Label = Tab:CreateLabel("Note: Do not spam.")
-
 
 local Button = Tab:CreateButton({
-   Name = "AUTO BYPASSER (GUI Version)"
+   Name = "Fix tagging",
    Interact = 'Click',
    Callback = function()
    -- The function that takes place when the button is pressed
@@ -64,34 +60,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Fix tagging"
+   Name = "Discord",
    Interact = 'Click',
    Callback = function()
-   -- The function that takes place when the button is pressed
+   
    end,
 })
-
--- End
-
-
--- Start
-local Tab = Window:CreateTab("Casual", 4483362458) -- Title, Image
-
-
-
--- End
-
-
--- Start
-local Tab = Window:CreateTab("Own Phrases", 4483362458) -- Title, Image
-
-
-
--- End
-
--- Start
-local Tab = Window:CreateTab("Sentences", 4483362458) -- Title, Image
-
-
-
--- End
